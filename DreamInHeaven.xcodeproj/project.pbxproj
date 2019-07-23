@@ -1,0 +1,1050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A74EFA68DAD720E79C0AC7 /* libPods-DreamInHeavenTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72327394B30F3F19096B9113 /* libPods-DreamInHeavenTests.a */; };
+		7832C26E22D3912200DC9E5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C26D22D3912200DC9E5E /* AppDelegate.m */; };
+		7832C27422D3912200DC9E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7832C27222D3912200DC9E5E /* Main.storyboard */; };
+		7832C27622D3912700DC9E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7832C27522D3912700DC9E5E /* Assets.xcassets */; };
+		7832C27922D3912700DC9E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7832C27722D3912700DC9E5E /* LaunchScreen.storyboard */; };
+		7832C27C22D3912700DC9E5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C27B22D3912700DC9E5E /* main.m */; };
+		7832C28622D3912800DC9E5E /* DreamInHeavenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C28522D3912800DC9E5E /* DreamInHeavenTests.m */; };
+		7832C29122D3912800DC9E5E /* DreamInHeavenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C29022D3912800DC9E5E /* DreamInHeavenUITests.m */; };
+		7832C2C022D393EE00DC9E5E /* EmptyIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2B422D393EA00DC9E5E /* EmptyIndicator.m */; };
+		7832C2C122D393EE00DC9E5E /* DiNTugsShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2B622D393EB00DC9E5E /* DiNTugsShareManager.m */; };
+		7832C2C222D393EE00DC9E5E /* DiNTagTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2BA22D393EC00DC9E5E /* DiNTagTabBar.m */; };
+		7832C2C322D393EE00DC9E5E /* DiNTugsPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2BB22D393EC00DC9E5E /* DiNTugsPhotoManager.m */; };
+		7832C2C422D393EE00DC9E5E /* DiNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2BE22D393ED00DC9E5E /* DiNTabBarController.m */; };
+		7832C2C522D393EE00DC9E5E /* DiNTugsStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2BF22D393ED00DC9E5E /* DiNTugsStorageManager.m */; };
+		7832C2CB22D3946100DC9E5E /* DinMyTugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2C722D3945F00DC9E5E /* DinMyTugViewController.m */; };
+		7832C2CC22D3946100DC9E5E /* DiNHusTugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2CA22D3946100DC9E5E /* DiNHusTugViewController.m */; };
+		7832C2E422D3984E00DC9E5E /* MyTugEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2E222D3984E00DC9E5E /* MyTugEditViewController.m */; };
+		7832C2E822D39A9100DC9E5E /* UIView+setFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2E622D39A9100DC9E5E /* UIView+setFrame.m */; };
+		7832C2EB22D39ABF00DC9E5E /* UIView+quickLayoutInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2EA22D39ABF00DC9E5E /* UIView+quickLayoutInit.m */; };
+		7832C2EE22D39AD400DC9E5E /* FNTFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7832C2EC22D39AD400DC9E5E /* FNTFoundation.m */; };
+		7890953B22E712D7001F7924 /* DiNHotTugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7890953A22E712D7001F7924 /* DiNHotTugViewController.m */; };
+		7890953F22E72133001F7924 /* tag_type_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890953D22E72133001F7924 /* tag_type_list.json */; };
+		7890954022E72133001F7924 /* tag_list_fashion.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890953E22E72133001F7924 /* tag_list_fashion.json */; };
+		7890954C22E72A64001F7924 /* tag_list_popular.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954122E72A64001F7924 /* tag_list_popular.json */; };
+		7890954D22E72A64001F7924 /* tag_list_other.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954222E72A64001F7924 /* tag_list_other.json */; };
+		7890954E22E72A64001F7924 /* tag_list_animal.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954322E72A64001F7924 /* tag_list_animal.json */; };
+		7890954F22E72A64001F7924 /* tag_list_photogtaphy.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954422E72A64001F7924 /* tag_list_photogtaphy.json */; };
+		7890955022E72A64001F7924 /* tag_list_sports.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954522E72A64001F7924 /* tag_list_sports.json */; };
+		7890955122E72A64001F7924 /* tag_list_holidays.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954622E72A64001F7924 /* tag_list_holidays.json */; };
+		7890955222E72A64001F7924 /* tag_list_food.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954722E72A64001F7924 /* tag_list_food.json */; };
+		7890955322E72A64001F7924 /* tag_list_family.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954822E72A64001F7924 /* tag_list_family.json */; };
+		7890955422E72A64001F7924 /* tag_list_nature.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954922E72A64001F7924 /* tag_list_nature.json */; };
+		7890955522E72A64001F7924 /* tag_list_social.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954A22E72A64001F7924 /* tag_list_social.json */; };
+		7890955622E72A64001F7924 /* tag_list_entertainment.json in Resources */ = {isa = PBXBuildFile; fileRef = 7890954B22E72A64001F7924 /* tag_list_entertainment.json */; };
+		7890956322E748A4001F7924 /* TagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7890955922E748A4001F7924 /* TagListViewController.m */; };
+		7890956422E748A4001F7924 /* TagListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7890955A22E748A4001F7924 /* TagListCollectionViewCell.m */; };
+		7890956522E748A4001F7924 /* HasTagTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7890955E22E748A4001F7924 /* HasTagTypeModel.m */; };
+		7890956622E748A4001F7924 /* TagModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7890955F22E748A4001F7924 /* TagModelItem.m */; };
+		7890956722E748A4001F7924 /* TagListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7890956122E748A4001F7924 /* TagListCollectionViewController.m */; };
+		78C79B4E22D4EFC800C3C7A5 /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79B4C22D4EFC800C3C7A5 /* UIDevice+Hardware.m */; };
+		78C79BC122D4F06E00C3C7A5 /* LibUtilEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79B9D22D4F06E00C3C7A5 /* LibUtilEx.m */; };
+		78C79BC422D4F06E00C3C7A5 /* WeakReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79BA322D4F06E00C3C7A5 /* WeakReference.m */; };
+		78C79BC522D4F06E00C3C7A5 /* NSObject+SFExecuteOnDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79BA722D4F06E00C3C7A5 /* NSObject+SFExecuteOnDealloc.m */; };
+		78C79BC622D4F06E00C3C7A5 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79BAB22D4F06E00C3C7A5 /* NSObject+DLIntrospection.m */; };
+		78C79BCA22D4F06E00C3C7A5 /* Utils_Swizzing.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79BBB22D4F06E00C3C7A5 /* Utils_Swizzing.m */; };
+		78C79BCF22D4F3EB00C3C7A5 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79BCB22D4F3EA00C3C7A5 /* UIColor+Addition.m */; };
+		78C79BD022D4F3EB00C3C7A5 /* UIColor+QuickInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79BCE22D4F3EA00C3C7A5 /* UIColor+QuickInit.m */; };
+		78C79BD322D4F49300C3C7A5 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79BD122D4F49300C3C7A5 /* UIButton+Block.m */; };
+		78C79BD622D4F4C500C3C7A5 /* NSObject+Associative.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C79BD522D4F4C500C3C7A5 /* NSObject+Associative.m */; };
+		A1D15FA45D87EF1BECF97698 /* libPods-DreamInHeaven.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B75A2CD2528318158D2BFC3D /* libPods-DreamInHeaven.a */; };
+		BE2FFFFE4BD66405C15B14A8 /* libPods-DreamInHeavenUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE03AFF68ED6234575EB685 /* libPods-DreamInHeavenUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7832C28222D3912800DC9E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7832C26122D3912200DC9E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7832C26822D3912200DC9E5E;
+			remoteInfo = DreamInHeaven;
+		};
+		7832C28D22D3912800DC9E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7832C26122D3912200DC9E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7832C26822D3912200DC9E5E;
+			remoteInfo = DreamInHeaven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BE03AFF68ED6234575EB685 /* libPods-DreamInHeavenUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamInHeavenUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330C8A5F6DC328AE57F4D380 /* Pods-DreamInHeaven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamInHeaven.release.xcconfig"; path = "Target Support Files/Pods-DreamInHeaven/Pods-DreamInHeaven.release.xcconfig"; sourceTree = "<group>"; };
+		6322D419BD263BCB6DBA1657 /* Pods-DreamInHeavenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamInHeavenTests.debug.xcconfig"; path = "Target Support Files/Pods-DreamInHeavenTests/Pods-DreamInHeavenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		677992253DFB687B5EB55EA9 /* Pods-DreamInHeaven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamInHeaven.debug.xcconfig"; path = "Target Support Files/Pods-DreamInHeaven/Pods-DreamInHeaven.debug.xcconfig"; sourceTree = "<group>"; };
+		6C00128849D34F771093EEF6 /* Pods-DreamInHeavenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamInHeavenUITests.debug.xcconfig"; path = "Target Support Files/Pods-DreamInHeavenUITests/Pods-DreamInHeavenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72327394B30F3F19096B9113 /* libPods-DreamInHeavenTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamInHeavenTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7832C26922D3912200DC9E5E /* DreamInHeaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamInHeaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7832C26C22D3912200DC9E5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7832C26D22D3912200DC9E5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7832C27322D3912200DC9E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7832C27522D3912700DC9E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7832C27822D3912700DC9E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7832C27A22D3912700DC9E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7832C27B22D3912700DC9E5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7832C28122D3912800DC9E5E /* DreamInHeavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamInHeavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7832C28522D3912800DC9E5E /* DreamInHeavenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamInHeavenTests.m; sourceTree = "<group>"; };
+		7832C28722D3912800DC9E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7832C28C22D3912800DC9E5E /* DreamInHeavenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamInHeavenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7832C29022D3912800DC9E5E /* DreamInHeavenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamInHeavenUITests.m; sourceTree = "<group>"; };
+		7832C29222D3912800DC9E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7832C2B422D393EA00DC9E5E /* EmptyIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyIndicator.m; sourceTree = "<group>"; };
+		7832C2B522D393EB00DC9E5E /* DiNTugsPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiNTugsPhotoManager.h; sourceTree = "<group>"; };
+		7832C2B622D393EB00DC9E5E /* DiNTugsShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiNTugsShareManager.m; sourceTree = "<group>"; };
+		7832C2B722D393EB00DC9E5E /* DiNTugsShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiNTugsShareManager.h; sourceTree = "<group>"; };
+		7832C2B822D393EB00DC9E5E /* DiNTagTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiNTagTabBar.h; sourceTree = "<group>"; };
+		7832C2B922D393EC00DC9E5E /* DiNTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiNTabBarController.h; sourceTree = "<group>"; };
+		7832C2BA22D393EC00DC9E5E /* DiNTagTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiNTagTabBar.m; sourceTree = "<group>"; };
+		7832C2BB22D393EC00DC9E5E /* DiNTugsPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiNTugsPhotoManager.m; sourceTree = "<group>"; };
+		7832C2BC22D393ED00DC9E5E /* DiNTugsStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiNTugsStorageManager.h; sourceTree = "<group>"; };
+		7832C2BD22D393ED00DC9E5E /* EmptyIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyIndicator.h; sourceTree = "<group>"; };
+		7832C2BE22D393ED00DC9E5E /* DiNTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiNTabBarController.m; sourceTree = "<group>"; };
+		7832C2BF22D393ED00DC9E5E /* DiNTugsStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiNTugsStorageManager.m; sourceTree = "<group>"; };
+		7832C2C622D3945F00DC9E5E /* DinMyTugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DinMyTugViewController.h; sourceTree = "<group>"; };
+		7832C2C722D3945F00DC9E5E /* DinMyTugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DinMyTugViewController.m; sourceTree = "<group>"; };
+		7832C2C822D3945F00DC9E5E /* DiNHusTugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiNHusTugViewController.h; sourceTree = "<group>"; };
+		7832C2C922D3946000DC9E5E /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		7832C2CA22D3946100DC9E5E /* DiNHusTugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiNHusTugViewController.m; sourceTree = "<group>"; };
+		7832C2E222D3984E00DC9E5E /* MyTugEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTugEditViewController.m; sourceTree = "<group>"; };
+		7832C2E622D39A9100DC9E5E /* UIView+setFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+setFrame.m"; sourceTree = "<group>"; };
+		7832C2E722D39A9100DC9E5E /* UIView+setFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+setFrame.h"; sourceTree = "<group>"; };
+		7832C2E922D39ABF00DC9E5E /* UIView+quickLayoutInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+quickLayoutInit.h"; sourceTree = "<group>"; };
+		7832C2EA22D39ABF00DC9E5E /* UIView+quickLayoutInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+quickLayoutInit.m"; sourceTree = "<group>"; };
+		7832C2EC22D39AD400DC9E5E /* FNTFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNTFoundation.m; sourceTree = "<group>"; };
+		7832C2ED22D39AD400DC9E5E /* FNTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTFoundation.h; sourceTree = "<group>"; };
+		7890953922E712D7001F7924 /* DiNHotTugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiNHotTugViewController.h; sourceTree = "<group>"; };
+		7890953A22E712D7001F7924 /* DiNHotTugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiNHotTugViewController.m; sourceTree = "<group>"; };
+		7890953D22E72133001F7924 /* tag_type_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_type_list.json; sourceTree = "<group>"; };
+		7890953E22E72133001F7924 /* tag_list_fashion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_fashion.json; sourceTree = "<group>"; };
+		7890954122E72A64001F7924 /* tag_list_popular.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_popular.json; sourceTree = "<group>"; };
+		7890954222E72A64001F7924 /* tag_list_other.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_other.json; sourceTree = "<group>"; };
+		7890954322E72A64001F7924 /* tag_list_animal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_animal.json; sourceTree = "<group>"; };
+		7890954422E72A64001F7924 /* tag_list_photogtaphy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_photogtaphy.json; sourceTree = "<group>"; };
+		7890954522E72A64001F7924 /* tag_list_sports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_sports.json; sourceTree = "<group>"; };
+		7890954622E72A64001F7924 /* tag_list_holidays.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_holidays.json; sourceTree = "<group>"; };
+		7890954722E72A64001F7924 /* tag_list_food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_food.json; sourceTree = "<group>"; };
+		7890954822E72A64001F7924 /* tag_list_family.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_family.json; sourceTree = "<group>"; };
+		7890954922E72A64001F7924 /* tag_list_nature.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_nature.json; sourceTree = "<group>"; };
+		7890954A22E72A64001F7924 /* tag_list_social.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_social.json; sourceTree = "<group>"; };
+		7890954B22E72A64001F7924 /* tag_list_entertainment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tag_list_entertainment.json; sourceTree = "<group>"; };
+		7890955822E748A4001F7924 /* TagListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListCollectionViewController.h; sourceTree = "<group>"; };
+		7890955922E748A4001F7924 /* TagListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListViewController.m; sourceTree = "<group>"; };
+		7890955A22E748A4001F7924 /* TagListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListCollectionViewCell.m; sourceTree = "<group>"; };
+		7890955C22E748A4001F7924 /* HasTagTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasTagTypeModel.h; sourceTree = "<group>"; };
+		7890955D22E748A4001F7924 /* TagModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagModelItem.h; sourceTree = "<group>"; };
+		7890955E22E748A4001F7924 /* HasTagTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasTagTypeModel.m; sourceTree = "<group>"; };
+		7890955F22E748A4001F7924 /* TagModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagModelItem.m; sourceTree = "<group>"; };
+		7890956022E748A4001F7924 /* TagListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListViewController.h; sourceTree = "<group>"; };
+		7890956122E748A4001F7924 /* TagListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagListCollectionViewController.m; sourceTree = "<group>"; };
+		7890956222E748A4001F7924 /* TagListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListCollectionViewCell.h; sourceTree = "<group>"; };
+		7890956922E74DC5001F7924 /* MyTugEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTugEditViewController.h; sourceTree = "<group>"; };
+		78C79B4C22D4EFC800C3C7A5 /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		78C79B4D22D4EFC800C3C7A5 /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		78C79B9A22D4F06E00C3C7A5 /* LibUtilEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibUtilEx.h; sourceTree = "<group>"; };
+		78C79B9D22D4F06E00C3C7A5 /* LibUtilEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibUtilEx.m; sourceTree = "<group>"; };
+		78C79BA122D4F06E00C3C7A5 /* LoadableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadableCategory.h; sourceTree = "<group>"; };
+		78C79BA322D4F06E00C3C7A5 /* WeakReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakReference.m; sourceTree = "<group>"; };
+		78C79BA422D4F06E00C3C7A5 /* WeakReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakReference.h; sourceTree = "<group>"; };
+		78C79BA622D4F06E00C3C7A5 /* NSObject+SFExecuteOnDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SFExecuteOnDealloc.h"; sourceTree = "<group>"; };
+		78C79BA722D4F06E00C3C7A5 /* NSObject+SFExecuteOnDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SFExecuteOnDealloc.m"; sourceTree = "<group>"; };
+		78C79BAA22D4F06E00C3C7A5 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
+		78C79BAB22D4F06E00C3C7A5 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
+		78C79BB522D4F06E00C3C7A5 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		78C79BBA22D4F06E00C3C7A5 /* Utils_Swizzing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils_Swizzing.h; sourceTree = "<group>"; };
+		78C79BBB22D4F06E00C3C7A5 /* Utils_Swizzing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils_Swizzing.m; sourceTree = "<group>"; };
+		78C79BCB22D4F3EA00C3C7A5 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		78C79BCC22D4F3EA00C3C7A5 /* UIColor+QuickInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+QuickInit.h"; sourceTree = "<group>"; };
+		78C79BCD22D4F3EA00C3C7A5 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		78C79BCE22D4F3EA00C3C7A5 /* UIColor+QuickInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QuickInit.m"; sourceTree = "<group>"; };
+		78C79BD122D4F49300C3C7A5 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		78C79BD222D4F49300C3C7A5 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		78C79BD422D4F4C500C3C7A5 /* NSObject+Associative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Associative.h"; sourceTree = "<group>"; };
+		78C79BD522D4F4C500C3C7A5 /* NSObject+Associative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Associative.m"; sourceTree = "<group>"; };
+		94F0BB30F7F7821212CF67B1 /* Pods-DreamInHeavenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamInHeavenTests.release.xcconfig"; path = "Target Support Files/Pods-DreamInHeavenTests/Pods-DreamInHeavenTests.release.xcconfig"; sourceTree = "<group>"; };
+		B75A2CD2528318158D2BFC3D /* libPods-DreamInHeaven.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamInHeaven.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE397E8C4F21183E1C609D5 /* Pods-DreamInHeavenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamInHeavenUITests.release.xcconfig"; path = "Target Support Files/Pods-DreamInHeavenUITests/Pods-DreamInHeavenUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7832C26622D3912200DC9E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D15FA45D87EF1BECF97698 /* libPods-DreamInHeaven.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7832C27E22D3912800DC9E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A74EFA68DAD720E79C0AC7 /* libPods-DreamInHeavenTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7832C28922D3912800DC9E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2FFFFE4BD66405C15B14A8 /* libPods-DreamInHeavenUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A8074BF3FF21F377A656A01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B75A2CD2528318158D2BFC3D /* libPods-DreamInHeaven.a */,
+				72327394B30F3F19096B9113 /* libPods-DreamInHeavenTests.a */,
+				2BE03AFF68ED6234575EB685 /* libPods-DreamInHeavenUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7832C26022D3912200DC9E5E = {
+			isa = PBXGroup;
+			children = (
+				7832C26B22D3912200DC9E5E /* DreamInHeaven */,
+				7832C28422D3912800DC9E5E /* DreamInHeavenTests */,
+				7832C28F22D3912800DC9E5E /* DreamInHeavenUITests */,
+				7832C26A22D3912200DC9E5E /* Products */,
+				DE96A2E01E8D4A00F12CDC1E /* Pods */,
+				2A8074BF3FF21F377A656A01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7832C26A22D3912200DC9E5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7832C26922D3912200DC9E5E /* DreamInHeaven.app */,
+				7832C28122D3912800DC9E5E /* DreamInHeavenTests.xctest */,
+				7832C28C22D3912800DC9E5E /* DreamInHeavenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7832C26B22D3912200DC9E5E /* DreamInHeaven */ = {
+			isa = PBXGroup;
+			children = (
+				7890955722E748A4001F7924 /* HasTags */,
+				7890953C22E72123001F7924 /* Resources */,
+				7832C2CD22D3959C00DC9E5E /* MyTags */,
+				7832C29E22D3913500DC9E5E /* Base */,
+				7832C26C22D3912200DC9E5E /* AppDelegate.h */,
+				7832C26D22D3912200DC9E5E /* AppDelegate.m */,
+				7832C2C922D3946000DC9E5E /* Const.h */,
+				7832C2C822D3945F00DC9E5E /* DiNHusTugViewController.h */,
+				7832C2CA22D3946100DC9E5E /* DiNHusTugViewController.m */,
+				7832C2C622D3945F00DC9E5E /* DinMyTugViewController.h */,
+				7832C2C722D3945F00DC9E5E /* DinMyTugViewController.m */,
+				7890953922E712D7001F7924 /* DiNHotTugViewController.h */,
+				7890953A22E712D7001F7924 /* DiNHotTugViewController.m */,
+				7832C27222D3912200DC9E5E /* Main.storyboard */,
+				7832C27522D3912700DC9E5E /* Assets.xcassets */,
+				7832C27722D3912700DC9E5E /* LaunchScreen.storyboard */,
+				7832C27A22D3912700DC9E5E /* Info.plist */,
+				7832C27B22D3912700DC9E5E /* main.m */,
+			);
+			path = DreamInHeaven;
+			sourceTree = "<group>";
+		};
+		7832C28422D3912800DC9E5E /* DreamInHeavenTests */ = {
+			isa = PBXGroup;
+			children = (
+				7832C28522D3912800DC9E5E /* DreamInHeavenTests.m */,
+				7832C28722D3912800DC9E5E /* Info.plist */,
+			);
+			path = DreamInHeavenTests;
+			sourceTree = "<group>";
+		};
+		7832C28F22D3912800DC9E5E /* DreamInHeavenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7832C29022D3912800DC9E5E /* DreamInHeavenUITests.m */,
+				7832C29222D3912800DC9E5E /* Info.plist */,
+			);
+			path = DreamInHeavenUITests;
+			sourceTree = "<group>";
+		};
+		7832C29E22D3913500DC9E5E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7832C2E522D39A6D00DC9E5E /* Lib */,
+				7832C2BD22D393ED00DC9E5E /* EmptyIndicator.h */,
+				7832C2B422D393EA00DC9E5E /* EmptyIndicator.m */,
+				7832C2B522D393EB00DC9E5E /* DiNTugsPhotoManager.h */,
+				7832C2BB22D393EC00DC9E5E /* DiNTugsPhotoManager.m */,
+				7832C2B722D393EB00DC9E5E /* DiNTugsShareManager.h */,
+				7832C2B622D393EB00DC9E5E /* DiNTugsShareManager.m */,
+				7832C2BC22D393ED00DC9E5E /* DiNTugsStorageManager.h */,
+				7832C2BF22D393ED00DC9E5E /* DiNTugsStorageManager.m */,
+				7832C2B822D393EB00DC9E5E /* DiNTagTabBar.h */,
+				7832C2BA22D393EC00DC9E5E /* DiNTagTabBar.m */,
+				7832C2B922D393EC00DC9E5E /* DiNTabBarController.h */,
+				7832C2BE22D393ED00DC9E5E /* DiNTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7832C2CD22D3959C00DC9E5E /* MyTags */ = {
+			isa = PBXGroup;
+			children = (
+				7890956922E74DC5001F7924 /* MyTugEditViewController.h */,
+				7832C2E222D3984E00DC9E5E /* MyTugEditViewController.m */,
+				7832C2E922D39ABF00DC9E5E /* UIView+quickLayoutInit.h */,
+				7832C2EA22D39ABF00DC9E5E /* UIView+quickLayoutInit.m */,
+			);
+			path = MyTags;
+			sourceTree = "<group>";
+		};
+		7832C2E522D39A6D00DC9E5E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				78C79B8D22D4F06E00C3C7A5 /* Utils */,
+				7832C2ED22D39AD400DC9E5E /* FNTFoundation.h */,
+				7832C2EC22D39AD400DC9E5E /* FNTFoundation.m */,
+				7832C2E722D39A9100DC9E5E /* UIView+setFrame.h */,
+				7832C2E622D39A9100DC9E5E /* UIView+setFrame.m */,
+				78C79B4D22D4EFC800C3C7A5 /* UIDevice+Hardware.h */,
+				78C79B4C22D4EFC800C3C7A5 /* UIDevice+Hardware.m */,
+				78C79BCD22D4F3EA00C3C7A5 /* UIColor+Addition.h */,
+				78C79BCB22D4F3EA00C3C7A5 /* UIColor+Addition.m */,
+				78C79BCC22D4F3EA00C3C7A5 /* UIColor+QuickInit.h */,
+				78C79BCE22D4F3EA00C3C7A5 /* UIColor+QuickInit.m */,
+				78C79BD222D4F49300C3C7A5 /* UIButton+Block.h */,
+				78C79BD122D4F49300C3C7A5 /* UIButton+Block.m */,
+				78C79BD422D4F4C500C3C7A5 /* NSObject+Associative.h */,
+				78C79BD522D4F4C500C3C7A5 /* NSObject+Associative.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7890953C22E72123001F7924 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7890954322E72A64001F7924 /* tag_list_animal.json */,
+				7890954B22E72A64001F7924 /* tag_list_entertainment.json */,
+				7890954822E72A64001F7924 /* tag_list_family.json */,
+				7890954722E72A64001F7924 /* tag_list_food.json */,
+				7890954622E72A64001F7924 /* tag_list_holidays.json */,
+				7890954922E72A64001F7924 /* tag_list_nature.json */,
+				7890954222E72A64001F7924 /* tag_list_other.json */,
+				7890954422E72A64001F7924 /* tag_list_photogtaphy.json */,
+				7890954122E72A64001F7924 /* tag_list_popular.json */,
+				7890954A22E72A64001F7924 /* tag_list_social.json */,
+				7890954522E72A64001F7924 /* tag_list_sports.json */,
+				7890953E22E72133001F7924 /* tag_list_fashion.json */,
+				7890953D22E72133001F7924 /* tag_type_list.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7890955722E748A4001F7924 /* HasTags */ = {
+			isa = PBXGroup;
+			children = (
+				7890955822E748A4001F7924 /* TagListCollectionViewController.h */,
+				7890955922E748A4001F7924 /* TagListViewController.m */,
+				7890955A22E748A4001F7924 /* TagListCollectionViewCell.m */,
+				7890955B22E748A4001F7924 /* Model */,
+				7890956022E748A4001F7924 /* TagListViewController.h */,
+				7890956122E748A4001F7924 /* TagListCollectionViewController.m */,
+				7890956222E748A4001F7924 /* TagListCollectionViewCell.h */,
+			);
+			path = HasTags;
+			sourceTree = "<group>";
+		};
+		7890955B22E748A4001F7924 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7890955C22E748A4001F7924 /* HasTagTypeModel.h */,
+				7890955D22E748A4001F7924 /* TagModelItem.h */,
+				7890955E22E748A4001F7924 /* HasTagTypeModel.m */,
+				7890955F22E748A4001F7924 /* TagModelItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C79B8D22D4F06E00C3C7A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				78C79B9922D4F06E00C3C7A5 /* Strings */,
+				78C79BA022D4F06E00C3C7A5 /* LoadableCategory */,
+				78C79BA222D4F06E00C3C7A5 /* WeakReference */,
+				78C79BA522D4F06E00C3C7A5 /* SFExecuteOnDealloc */,
+				78C79BA922D4F06E00C3C7A5 /* DLIntrospection */,
+				78C79BB422D4F06E00C3C7A5 /* SynthesizeSingleton */,
+				78C79BB922D4F06E00C3C7A5 /* Swizzing */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		78C79B9922D4F06E00C3C7A5 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				78C79B9A22D4F06E00C3C7A5 /* LibUtilEx.h */,
+				78C79B9D22D4F06E00C3C7A5 /* LibUtilEx.m */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		78C79BA022D4F06E00C3C7A5 /* LoadableCategory */ = {
+			isa = PBXGroup;
+			children = (
+				78C79BA122D4F06E00C3C7A5 /* LoadableCategory.h */,
+			);
+			path = LoadableCategory;
+			sourceTree = "<group>";
+		};
+		78C79BA222D4F06E00C3C7A5 /* WeakReference */ = {
+			isa = PBXGroup;
+			children = (
+				78C79BA322D4F06E00C3C7A5 /* WeakReference.m */,
+				78C79BA422D4F06E00C3C7A5 /* WeakReference.h */,
+			);
+			path = WeakReference;
+			sourceTree = "<group>";
+		};
+		78C79BA522D4F06E00C3C7A5 /* SFExecuteOnDealloc */ = {
+			isa = PBXGroup;
+			children = (
+				78C79BA622D4F06E00C3C7A5 /* NSObject+SFExecuteOnDealloc.h */,
+				78C79BA722D4F06E00C3C7A5 /* NSObject+SFExecuteOnDealloc.m */,
+			);
+			path = SFExecuteOnDealloc;
+			sourceTree = "<group>";
+		};
+		78C79BA922D4F06E00C3C7A5 /* DLIntrospection */ = {
+			isa = PBXGroup;
+			children = (
+				78C79BAA22D4F06E00C3C7A5 /* NSObject+DLIntrospection.h */,
+				78C79BAB22D4F06E00C3C7A5 /* NSObject+DLIntrospection.m */,
+			);
+			path = DLIntrospection;
+			sourceTree = "<group>";
+		};
+		78C79BB422D4F06E00C3C7A5 /* SynthesizeSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				78C79BB522D4F06E00C3C7A5 /* SynthesizeSingleton.h */,
+			);
+			path = SynthesizeSingleton;
+			sourceTree = "<group>";
+		};
+		78C79BB922D4F06E00C3C7A5 /* Swizzing */ = {
+			isa = PBXGroup;
+			children = (
+				78C79BBA22D4F06E00C3C7A5 /* Utils_Swizzing.h */,
+				78C79BBB22D4F06E00C3C7A5 /* Utils_Swizzing.m */,
+			);
+			path = Swizzing;
+			sourceTree = "<group>";
+		};
+		DE96A2E01E8D4A00F12CDC1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				677992253DFB687B5EB55EA9 /* Pods-DreamInHeaven.debug.xcconfig */,
+				330C8A5F6DC328AE57F4D380 /* Pods-DreamInHeaven.release.xcconfig */,
+				6322D419BD263BCB6DBA1657 /* Pods-DreamInHeavenTests.debug.xcconfig */,
+				94F0BB30F7F7821212CF67B1 /* Pods-DreamInHeavenTests.release.xcconfig */,
+				6C00128849D34F771093EEF6 /* Pods-DreamInHeavenUITests.debug.xcconfig */,
+				CFE397E8C4F21183E1C609D5 /* Pods-DreamInHeavenUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7832C26822D3912200DC9E5E /* DreamInHeaven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7832C29522D3912800DC9E5E /* Build configuration list for PBXNativeTarget "DreamInHeaven" */;
+			buildPhases = (
+				78F7A596D98344EB2DABAF0F /* [CP] Check Pods Manifest.lock */,
+				7832C26522D3912200DC9E5E /* Sources */,
+				7832C26622D3912200DC9E5E /* Frameworks */,
+				7832C26722D3912200DC9E5E /* Resources */,
+				1802C8B85756B71DC28419BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamInHeaven;
+			productName = DreamInHeaven;
+			productReference = 7832C26922D3912200DC9E5E /* DreamInHeaven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7832C28022D3912800DC9E5E /* DreamInHeavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7832C29822D3912800DC9E5E /* Build configuration list for PBXNativeTarget "DreamInHeavenTests" */;
+			buildPhases = (
+				871A9E85AEE33C30417E590A /* [CP] Check Pods Manifest.lock */,
+				7832C27D22D3912800DC9E5E /* Sources */,
+				7832C27E22D3912800DC9E5E /* Frameworks */,
+				7832C27F22D3912800DC9E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7832C28322D3912800DC9E5E /* PBXTargetDependency */,
+			);
+			name = DreamInHeavenTests;
+			productName = DreamInHeavenTests;
+			productReference = 7832C28122D3912800DC9E5E /* DreamInHeavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7832C28B22D3912800DC9E5E /* DreamInHeavenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7832C29B22D3912800DC9E5E /* Build configuration list for PBXNativeTarget "DreamInHeavenUITests" */;
+			buildPhases = (
+				2BAFC92785847C450B1C0112 /* [CP] Check Pods Manifest.lock */,
+				7832C28822D3912800DC9E5E /* Sources */,
+				7832C28922D3912800DC9E5E /* Frameworks */,
+				7832C28A22D3912800DC9E5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7832C28E22D3912800DC9E5E /* PBXTargetDependency */,
+			);
+			name = DreamInHeavenUITests;
+			productName = DreamInHeavenUITests;
+			productReference = 7832C28C22D3912800DC9E5E /* DreamInHeavenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7832C26122D3912200DC9E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ciwei;
+				TargetAttributes = {
+					7832C26822D3912200DC9E5E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					7832C28022D3912800DC9E5E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 7832C26822D3912200DC9E5E;
+					};
+					7832C28B22D3912800DC9E5E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 7832C26822D3912200DC9E5E;
+					};
+				};
+			};
+			buildConfigurationList = 7832C26422D3912200DC9E5E /* Build configuration list for PBXProject "DreamInHeaven" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7832C26022D3912200DC9E5E;
+			productRefGroup = 7832C26A22D3912200DC9E5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7832C26822D3912200DC9E5E /* DreamInHeaven */,
+				7832C28022D3912800DC9E5E /* DreamInHeavenTests */,
+				7832C28B22D3912800DC9E5E /* DreamInHeavenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7832C26722D3912200DC9E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7890954D22E72A64001F7924 /* tag_list_other.json in Resources */,
+				7832C27922D3912700DC9E5E /* LaunchScreen.storyboard in Resources */,
+				7832C27622D3912700DC9E5E /* Assets.xcassets in Resources */,
+				7890955422E72A64001F7924 /* tag_list_nature.json in Resources */,
+				7890955522E72A64001F7924 /* tag_list_social.json in Resources */,
+				7890955322E72A64001F7924 /* tag_list_family.json in Resources */,
+				7890954C22E72A64001F7924 /* tag_list_popular.json in Resources */,
+				7890955622E72A64001F7924 /* tag_list_entertainment.json in Resources */,
+				7890955222E72A64001F7924 /* tag_list_food.json in Resources */,
+				7890954F22E72A64001F7924 /* tag_list_photogtaphy.json in Resources */,
+				7890955122E72A64001F7924 /* tag_list_holidays.json in Resources */,
+				7890954E22E72A64001F7924 /* tag_list_animal.json in Resources */,
+				7890953F22E72133001F7924 /* tag_type_list.json in Resources */,
+				7890955022E72A64001F7924 /* tag_list_sports.json in Resources */,
+				7832C27422D3912200DC9E5E /* Main.storyboard in Resources */,
+				7890954022E72133001F7924 /* tag_list_fashion.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7832C27F22D3912800DC9E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7832C28A22D3912800DC9E5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1802C8B85756B71DC28419BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamInHeaven/Pods-DreamInHeaven-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DreamInHeaven/Pods-DreamInHeaven-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DreamInHeaven/Pods-DreamInHeaven-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAFC92785847C450B1C0112 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamInHeavenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78F7A596D98344EB2DABAF0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamInHeaven-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		871A9E85AEE33C30417E590A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamInHeavenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7832C26522D3912200DC9E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C79BC122D4F06E00C3C7A5 /* LibUtilEx.m in Sources */,
+				7832C2CC22D3946100DC9E5E /* DiNHusTugViewController.m in Sources */,
+				7832C2CB22D3946100DC9E5E /* DinMyTugViewController.m in Sources */,
+				7890956622E748A4001F7924 /* TagModelItem.m in Sources */,
+				7832C2C222D393EE00DC9E5E /* DiNTagTabBar.m in Sources */,
+				78C79BCA22D4F06E00C3C7A5 /* Utils_Swizzing.m in Sources */,
+				7832C2C022D393EE00DC9E5E /* EmptyIndicator.m in Sources */,
+				78C79BC622D4F06E00C3C7A5 /* NSObject+DLIntrospection.m in Sources */,
+				78C79B4E22D4EFC800C3C7A5 /* UIDevice+Hardware.m in Sources */,
+				7832C2EB22D39ABF00DC9E5E /* UIView+quickLayoutInit.m in Sources */,
+				78C79BD622D4F4C500C3C7A5 /* NSObject+Associative.m in Sources */,
+				7832C2C122D393EE00DC9E5E /* DiNTugsShareManager.m in Sources */,
+				7890956322E748A4001F7924 /* TagListViewController.m in Sources */,
+				7832C2EE22D39AD400DC9E5E /* FNTFoundation.m in Sources */,
+				7890953B22E712D7001F7924 /* DiNHotTugViewController.m in Sources */,
+				7832C27C22D3912700DC9E5E /* main.m in Sources */,
+				7890956522E748A4001F7924 /* HasTagTypeModel.m in Sources */,
+				78C79BC522D4F06E00C3C7A5 /* NSObject+SFExecuteOnDealloc.m in Sources */,
+				7890956422E748A4001F7924 /* TagListCollectionViewCell.m in Sources */,
+				7832C2C322D393EE00DC9E5E /* DiNTugsPhotoManager.m in Sources */,
+				78C79BD322D4F49300C3C7A5 /* UIButton+Block.m in Sources */,
+				7890956722E748A4001F7924 /* TagListCollectionViewController.m in Sources */,
+				7832C26E22D3912200DC9E5E /* AppDelegate.m in Sources */,
+				7832C2C422D393EE00DC9E5E /* DiNTabBarController.m in Sources */,
+				7832C2E422D3984E00DC9E5E /* MyTugEditViewController.m in Sources */,
+				78C79BC422D4F06E00C3C7A5 /* WeakReference.m in Sources */,
+				7832C2E822D39A9100DC9E5E /* UIView+setFrame.m in Sources */,
+				7832C2C522D393EE00DC9E5E /* DiNTugsStorageManager.m in Sources */,
+				78C79BCF22D4F3EB00C3C7A5 /* UIColor+Addition.m in Sources */,
+				78C79BD022D4F3EB00C3C7A5 /* UIColor+QuickInit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7832C27D22D3912800DC9E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7832C28622D3912800DC9E5E /* DreamInHeavenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7832C28822D3912800DC9E5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7832C29122D3912800DC9E5E /* DreamInHeavenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7832C28322D3912800DC9E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7832C26822D3912200DC9E5E /* DreamInHeaven */;
+			targetProxy = 7832C28222D3912800DC9E5E /* PBXContainerItemProxy */;
+		};
+		7832C28E22D3912800DC9E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7832C26822D3912200DC9E5E /* DreamInHeaven */;
+			targetProxy = 7832C28D22D3912800DC9E5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7832C27222D3912200DC9E5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7832C27322D3912200DC9E5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7832C27722D3912700DC9E5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7832C27822D3912700DC9E5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7832C29322D3912800DC9E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7832C29422D3912800DC9E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7832C29622D3912800DC9E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677992253DFB687B5EB55EA9 /* Pods-DreamInHeaven.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DreamInHeaven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciwei.DreamInHeaven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7832C29722D3912800DC9E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330C8A5F6DC328AE57F4D380 /* Pods-DreamInHeaven.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DreamInHeaven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciwei.DreamInHeaven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7832C29922D3912800DC9E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6322D419BD263BCB6DBA1657 /* Pods-DreamInHeavenTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DreamInHeavenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciwei.DreamInHeavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamInHeaven.app/DreamInHeaven";
+			};
+			name = Debug;
+		};
+		7832C29A22D3912800DC9E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F0BB30F7F7821212CF67B1 /* Pods-DreamInHeavenTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DreamInHeavenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciwei.DreamInHeavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamInHeaven.app/DreamInHeaven";
+			};
+			name = Release;
+		};
+		7832C29C22D3912800DC9E5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C00128849D34F771093EEF6 /* Pods-DreamInHeavenUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DreamInHeavenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciwei.DreamInHeavenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DreamInHeaven;
+			};
+			name = Debug;
+		};
+		7832C29D22D3912800DC9E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE397E8C4F21183E1C609D5 /* Pods-DreamInHeavenUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DreamInHeavenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciwei.DreamInHeavenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DreamInHeaven;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7832C26422D3912200DC9E5E /* Build configuration list for PBXProject "DreamInHeaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7832C29322D3912800DC9E5E /* Debug */,
+				7832C29422D3912800DC9E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7832C29522D3912800DC9E5E /* Build configuration list for PBXNativeTarget "DreamInHeaven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7832C29622D3912800DC9E5E /* Debug */,
+				7832C29722D3912800DC9E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7832C29822D3912800DC9E5E /* Build configuration list for PBXNativeTarget "DreamInHeavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7832C29922D3912800DC9E5E /* Debug */,
+				7832C29A22D3912800DC9E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7832C29B22D3912800DC9E5E /* Build configuration list for PBXNativeTarget "DreamInHeavenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7832C29C22D3912800DC9E5E /* Debug */,
+				7832C29D22D3912800DC9E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7832C26122D3912200DC9E5E /* Project object */;
+}

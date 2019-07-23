@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'SVGKit-iOS' target in the 'SVGKit-iOS' project
+//
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+
+#import <Foundation/Foundation.h>
+
+#define SVNKit_LOG_FORMAT_PREFIX @"%s [Line %d] \n"
+
+#define SVGKitLogError(frmt, ...)   NSLog(@"【SVG-ERROR】"SVNKit_LOG_FORMAT_PREFIX frmt, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define SVGKitLogWarn(frmt, ...)    NSLog(@"【SVG-WARN】"SVNKit_LOG_FORMAT_PREFIX frmt, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define SVGKitLogInfo(frmt, ...)    NSLog(@"【SVG-INFO】"SVNKit_LOG_FORMAT_PREFIX frmt, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define SVGKitLogDebug(frmt, ...)   NSLog(@"【SVG-DEBUG】"SVNKit_LOG_FORMAT_PREFIX frmt, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#define SVGKitLogVerbose(frmt, ...) NSLog(@"【SVG-VERBOSE】"SVNKit_LOG_FORMAT_PREFIX frmt, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+#else
+
+#define SVNKit_LOG_FORMAT_PREFIX @""
+#define SVGKitLogError(frmt, ...)   
+#define SVGKitLogWarn(frmt, ...)  
+#define SVGKitLogInfo(frmt, ...)    
+#define SVGKitLogDebug(frmt, ...)   
+#define SVGKitLogVerbose(frmt, ...) 
+
+#endif
+
+#endif
